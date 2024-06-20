@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>remotecar</title>
+    <title>My project</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=1f342af7-e147-4b1e-bb7c-cab74e211961"
+<script src = "sdk/blippar-webar-sdk-v2.0.1/webar-sdk/webar-sdk-v2.0.1.min.js?license-key=25f4cb92-be44-488d-8521-8fd8db5f6e8e"
 webar-mode="surface-tracking"
-static-camera = "false"
+static-camera = "true"
 auto-start="false"
 auto-init="false"
-enable-photo-ui="false"
+enable-photo-ui="true"
 render-scene-on-desktop="false"
 show-qr-card-on-desktop="false"
 enable-tracking-on-desktop= "false"
@@ -87,7 +87,7 @@ scan-btn-progress-circle-cx-coordinate="50%"
 scan-btn-progress-circle-cy-coordinate="50%"
 scan-btn-progress-circle-radius="35"
 scan-btn-progress-circle-style="fill: none; stroke: cyan; stroke-width: 6;"
-ios-camera-permission= "false"
+ios-camera-permission="true"
 auto-scan-instruction-idle-on-desktop="Reload to detect a marker"
 
 show-guide-view="true"></script>
@@ -104,14 +104,14 @@ var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
 const stageObjectName = "webarStage";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-remotecar.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-My project.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-remotecar.data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-remotecar.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-remotecar.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-My project.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-My project.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-My project.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Blippar",
-        productName: "remotecar",
+        companyName: "DefaultCompany",
+        productName: "My project",
         productVersion: "0.1",
       };
 
