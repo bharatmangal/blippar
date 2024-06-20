@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>My project</title>
+    <title>remotecar</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = "sdk/blippar-webar-sdk-v2.0.1/webar-sdk/webar-sdk-v2.0.1.min.js?license-key=xxxx-1111-2222-3333-yyyy"
+<script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=xxxx-1111-2222-3333-yyyy"
 webar-mode="surface-tracking"
-static-camera = "true"
+static-camera = "false"
 auto-start="false"
 auto-init="false"
-enable-photo-ui="true"
+enable-photo-ui="false"
 render-scene-on-desktop="false"
 show-qr-card-on-desktop="false"
 enable-tracking-on-desktop= "false"
@@ -104,14 +104,14 @@ var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
 const stageObjectName = "webarStage";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-My project.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-remotecar.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-My project.data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-My project.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-My project.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-remotecar.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-remotecar.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-remotecar.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "My project",
+        companyName: "Blippar",
+        productName: "remotecar",
         productVersion: "0.1",
       };
 
