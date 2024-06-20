@@ -4,16 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>SolarSyatem</title>
+    <title>remotecar</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=1f342af7-e147-4b1e-bb7c-cab74e211961"
+<script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=49b56ecc-8308-4930-a654-ce4762ee77d1"
 webar-mode="surface-tracking"
-static-camera = "true"
-auto-start="true"
-auto-init="true"
-enable-photo-ui="true"
+static-camera = "false"
+auto-start="false"
+auto-init="false"
+enable-photo-ui="false"
 render-scene-on-desktop="false"
 show-qr-card-on-desktop="false"
 enable-tracking-on-desktop= "false"
@@ -104,14 +104,14 @@ var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
 const stageObjectName = "webarStage";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-SolarSyatem.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-remotecar.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-SolarSyatem.data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-SolarSyatem.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-SolarSyatem.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-remotecar.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-remotecar.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-remotecar.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "SolarSyatem",
+        companyName: "Blippar",
+        productName: "remotecar",
         productVersion: "0.1",
       };
 
