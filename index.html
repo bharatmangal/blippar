@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>remotecar</title>
+    <title>BlipparMarker</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
 <script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=25f4cb92-be44-488d-8521-8fd8db5f6e8e"
-webar-mode="surface-tracking"
+webar-mode="marker-tracking"
 static-camera = "false"
 auto-start="false"
 auto-init="false"
-enable-photo-ui="false"
-render-scene-on-desktop="false"
+enable-photo-ui="true"
+render-scene-on-desktop= "false"
 show-qr-card-on-desktop="false"
-enable-tracking-on-desktop= "false"
-enable-mirroring-on-desktop= "false"
+enable-tracking-on-desktop="false"
+enable-mirroring-on-desktop="false"
 hide-reset-button="false"
 auto-marker-detection ="true"
 show-guide-animation-url=""
@@ -102,16 +102,16 @@ show-guide-view="true"></script>
 var Yrotvalue = undefined;
 var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
-const stageObjectName = "webarStage";
+const stageObjectName = "c428750f-2175-4985-8bc9-7fdd8bb02884, defa0686-1efa-433f-8c34-f1cfb75df4dd";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-remotecar.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-BlipparMarker.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-remotecar.data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-remotecar.framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-remotecar.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-BlipparMarker.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-BlipparMarker.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-BlipparMarker.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Blippar",
-        productName: "remotecar",
+        productName: "BlipparMarker",
         productVersion: "0.1",
       };
 
